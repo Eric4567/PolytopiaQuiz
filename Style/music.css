@@ -1,0 +1,79 @@
+#music-conteiner{
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    background-color: rgba(78, 155, 226, 0.863);
+    opacity: 60%;
+    z-index: 1;
+}
+#play-button{
+    z-index: 0;
+    position: relative;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    background-image: url(../Images/PlayButton.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    filter: invert(1);
+    z-index: 2;
+}
+#play-button:hover{
+    z-index: 0;
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 30ms;
+}
+#music-bar{
+    z-index: 0;
+    position: relative;
+    margin-top: 20px;
+    width: 180px;
+    height: 8px;
+    background-color: white;
+}
+#bar-progression{
+    z-index: 0;
+    width: 0%;
+    height: 8px;
+    background-color: rgb(31, 110, 255);
+}
+/* 
+-
+-
+-
+-
+*/
+.tribalButton{
+    z-index: 0;
+    background-color: rgb(220, 220, 220);
+    border-radius: 10px;
+    margin: 20px;
+    height: 90px;
+    width: 90px;
+}
+#buttons-container{
+    z-index: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 4px;
+}
+#results-div{
+    display: none;
+    z-index: 1;
+    background-color: rgba(115, 189, 230, 0.87);
+    width: 1500px;
+    height: 730px;
+    position: absolute;
+    align-self: center;
+    margin-top: 50%;
+    margin-right: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+}
