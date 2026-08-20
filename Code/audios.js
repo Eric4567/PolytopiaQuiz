@@ -76,7 +76,7 @@ let tribeMusics = [
   { tribe: "Quetzali", music: Quetzali },
   { tribe: "Sha-po", music: Shapo },
   { tribe: "Solaris", music: Solaris },
-  { tribe: "To Li", music: ToLi },
+  { tribe: "To_Li", music: ToLi },
   { tribe: "Ürkaz", music: Urkaz },
   { tribe: "Vengir", music: Vengir },
   { tribe: "Xin-xi", music: Xinxi },
@@ -90,9 +90,15 @@ let tribeMusics = [
 function CreateTribeButtons(){
   for(i = 0; i < tribeMusics.length; i++){
     let newButton = document.createElement("div")
+
     newButton.className = "tribalButton"
     newButton.id = tribeMusics[i].tribe
     newButton.innerHTML = tribeMusics[i].tribe
+
+    newButton.style.backgroundImage = `url('./Images/skins/${tribeMusics[i].tribe}.webp')`;
+    newButton.style.backgroundPosition = "center";
+    newButton.style.backgroundSize = "cover";
+
     buttonsContainer.appendChild(newButton)
   }
 
