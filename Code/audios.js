@@ -79,7 +79,7 @@ let tribeMusics = [
   { tribe: "To_Li", music: ToLi },
   { tribe: "Ürkaz", music: Urkaz },
   { tribe: "Vengir", music: Vengir },
-  { tribe: "Xin-xi", music: Xinxi },
+  { tribe: "Xin-Xi", music: Xinxi },
   { tribe: "Yadakk", music: Yadakk },
   { tribe: "Yorthwober", music: Yorthwober },
   { tribe: "Zebasi", music: Zebasi }
